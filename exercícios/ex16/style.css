@@ -1,0 +1,29 @@
+@charset "UTF-8";
+*{
+    font-family:"Lucida Console","Courier",monospace;
+}
+
+body{
+    background-image: linear-gradient(to right,#9D38B8,#D616A7,#F91B4C);
+}
+
+main{
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.466);
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    color: #9D38B8;
+}
+
+h2{
+    color: #F91B4C;
+}
+p{
+    text-align: justify;
+}
