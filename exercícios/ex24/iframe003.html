@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        #tela{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de iframe</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aperiam accusantium ullam non molestias corporis, quam cum, voluptatem praesentium possimus, quia earum incidunt? Reprehenderit expedita vitae incidunt optio accusantium nulla. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis dicta voluptas aliquam, nihil quas eaque id blanditiis error magni, explicabo numquam doloremque quae nesciunt laborum odit eligendi repellendus beatae quasi.</p>
+
+    <ul>
+        <li><a href="paginas-extras/page001.html" target="frame">Página 1</a></li>
+        <li><a href="paginas-extras/page002.html" target="frame">Página 2</a></li>
+        <li><a href="paginas-extras/page003.html" target="frame">Página 3</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id consequuntur quod vel quae est cupiditate placeat in quo maxime sit totam perferendis modi a esse, blanditiis, excepturi iure corrupti dolorum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut excepturi odio ducimus consectetur maxime similique, at perspiciatis vero sunt atque commodi dolorem architecto unde iure dolore rem repudiandae minus obcaecati?</p>
+
+    <iframe id="tela" name="frame" 
+    srcdoc="<h1>Escolha uma das opções acima.</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptas aspernatur suscipit aliquam voluptatem debitis exercitationem iusto, ipsum ad eveniet nobis pariatur ex ea quaerat fugiat reprehenderit incidunt. Rem, excepturi?</p>
+    ">
+        <p class="text-error">
+            Infelizmente seu navegador não é compatível com isso.
+        </p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis corporis expedita totam architecto quia amet, similique quasi, commodi nisi doloribus unde aliquid sapiente reprehenderit molestias harum non voluptates nam cum.</p>
+</body>
+</html>
